@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flower knight girl Viewer</title>
+    <link rel="shortcut icon" href="data/ui/favicon.png">
+    <link rel="stylesheet" type="text/css" href="data/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="data/styles/animations.css">
+    <script src="data/scripts/background.js"></script>
+    <script src="data/scripts/main.js"></script>
+    <script src="data/scripts/story.js"></script>
+    <script src="data/scripts/init.js"></script>
+    <script src="data/scripts/prefs.js"></script>
+    <script src="data/scripts/sceneSelect.js"></script>
+    <script src="data/scripts/preloader.js"></script>
+    <script src="data/scripts/scene.js"></script>
+    <script src="data/scripts/search.js"></script>
+    <script src="data/scripts/userInput.js"></script>
+    <script src="data/scripts/debug.js"></script>
+    <script src="data/scripts/cg.js"></script>
+    <script src="data/scripts/autocomplete.js"></script>
+    <script src="data/scripts/tlTools.js"></script>
+    <!-- Spine player -->
+    <script src="data/scripts/spine-player.js"></script>
+    <link rel="stylesheet" type="text/css" href="data/styles/spine-player.css">
+</head>
+
+<body style="background:#2f2f2f" oncontextmenu="return false;">
+    <div id="body-wrapper">
+        <div id="header">
+            <div class="styled-btn main-btn">Controls</div>
+            <div class="styled-btn main-btn">Options</div>
+            <div class="styled-btn main-btn">Search</div>
+            <div id="page-select">
+                <div id="prev-page"></div>
+                <input id="page-number" type="text" tabindex="-1">
+                <div id="next-page"></div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="content-wrap">
+                <div id="loading-wrap">
+                    <div id="loading-img"></div>
+                    <div id="loading-x"></div>
+                    <div id="loading-bar">
+                        <div id="loading-progress"></div>
+                    </div>
+                    <div id="loading-text"></div>
+                    <div id="loading-dots"></div>
+                    <div id="loading-file">Loading Data Scripts</div>
+                </div>
+                <div id="loading-error">
+                    <textarea id="loading-error-msg" readonly></textarea>
+                    <div id="loading-error-btn" class="styled-btn">Return</div>
+                </div>
+                <div id="scene-select">
+                    <div id="scene-select-control"></div>
+                    <div id="cg-wrapper">
+                    </div>
+                </div>
+                <div id="story-select">
+                    <div id="story-select-head">
+                        
+                    </div>
+                    <div id="story-select-chapter-wrap">
+                        <div id="story-select-chapter-choices-scroll-hide">
+                            <div id="story-select-chapter-choices">
+                            </div> 
+                        </div>
+                    </div>
+                    <div id="story-select-section">
+                        <div id="story-select-section-select">
+                            <div class="story-select-sections" id="story-select-section-one">
+                                <div class="story-select-section-select-pattern">
+                                    <div id="story-select-section-one-tag" class="story-select-section-tag" section="S01"></div>
+                                </div>
+                            </div>
+                            <div class="story-select-sections" id="story-select-section-two">
+                                <div class="story-select-section-select-pattern">
+                                    <div id="story-select-section-two-tag" class="story-select-section-tag" section="S02"></div>
+                                </div>
+                            </div>
+                            <div class="story-select-sections" id="story-select-section-three">
+                                <div class="story-select-section-select-pattern">
+                                    <div id="story-select-section-three-tag" class="story-select-section-tag" section="S03"></div>
+                                </div>
+                            </div>
+                            <div class="story-select-sections" id="story-select-section-four">
+                                <div class="story-select-section-select-pattern">
+                                    <div id="story-select-section-four-tag" class="story-select-section-tag" section="S04"></div>
+                                </div>
+                            </div>
+                            <div class="story-select-sections" id="story-select-section-five">
+                                <div class="story-select-section-select-pattern">
+                                    <div id="story-select-section-five-tag" class="story-select-section-tag" section="S05"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="story-select-section-single">
+                            <div id="story-select-section-prologue" class="story-select-section-part" part="A"></div>
+                            <div id="story-select-section-epilogue" class="story-select-section-part" part="B"></div>
+                            <div id="story-select-section-title" class="text-stroke no-select">Section 01</div>
+                        </div>
+                    </div>
+                    <div id="story-select-chapter-title" class="text-stroke no-select">対魔忍のバレンタインは厳しい</div>
+                </div>
+                <div id="scene-viewer">
+                    <div id="back-images">
+                        <div id="scene-background" class="scene-background"></div>
+                        <div id="scene-background-alt" class="scene-background"></div>
+                        <div id="parent"></div>
+                        <div id="overlay"></div>
+                    </div>
+                    <div id="effect-flash" class="scene-flash"></div>
+                    <div id="effect-flash-alt" class="scene-flash"></div>
+                    <div id="scene-black"></div>
+                    <div id="actors"></div>
+                    <div id="scene-options"></div>
+                    <div id="text-box">
+                        <div id="name-plate" class="scene-text"></div>
+                        <div id="text-box-content" class="scene-text"></div>
+                    </div>
+                </div>
+                <div id="search">
+                    <div class="search-section">
+                        <label>Character</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="charName" id="charName" tabindex=1>
+                        </div>
+                    </div>
+                    <div class="search-section">
+                        <label>Artist</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="sceneArtist" id="sceneArtist" tabindex=2>
+                        </div>
+                    </div>
+                    <div class="search-section">
+                        <label>CV</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="sceneCV" id="sceneCV" tabindex=3>
+                        </div>
+                    </div>
+                    <div class="search-section">
+                        <label>Female</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="femaleTags" id="femaleTags" tabindex=4>
+                        </div>
+                        <input type="checkbox" name="femaleTagsAll" id="femaleTagsAll">
+                        <label for="femaleTagsAll">Match All</label><br />
+                        <label>Male</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="maleTags" id="maleTags" tabindex=5>
+                        </div>
+                        <input type="checkbox" name="maleTagsAll" id="maleTagsAll">
+                        <label for="maleTagsAll">Match All</label><br />
+                        <label>Misc</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="miscTags" id="miscTags" tabindex=6>
+                        </div>
+                        <input type="checkbox" name="miscTagsAll" id="miscTagsAll">
+                        <label for="miscTagsAll">Match All</label>
+                        <label>Location</label><br />
+                        <div class="autocomplete">
+                            <input type="text" name="locationTags" id="locationTags" tabindex=7>
+                        </div>
+                    </div>
+                    <div class="search-section">
+                        <input type="checkbox" name="charOrig" id="charOrig">
+                        <label for="charOrig">Exclusive Characters Only</label>
+                        <input type="checkbox" name="charMain" id="charMain">
+                        <label for="charMain">Main Series Characters Only</label>
+                        <input type="checkbox" name="sceneFav" id="sceneFav">
+                        <label for="sceneFav">Favourites Only</label>
+                        <input type="checkbox" name="sceneEng" id="sceneEng">
+                        <label for="sceneEng">Translated Only</label>
+                        <br />
+                        <div id="search-btn-wrap">
+                            <div id="searchCancel" class="styled-btn search-btn">Cancel</div>
+                            <div id="filterReset" class="styled-btn search-btn">Reset</div>
+                            <div id="sceneSearch" class="styled-btn search-btn">Search</div>
+                        </div>
+                        <span id="search-error">No results</span>
+                    </div>
+                </div>
+                <div id="controls">
+                    <div class="controls-section">
+                        <div class="controls-subhead">
+                            Scene Select
+                        </div>
+                        <div class="controls-content">
+                            <b>Left Click</b>: Start Scene, <b>Right Click</b>: Favourite Scene<br/>
+                            <b>WASD/Arrow Keys</b>: Move Cursor, <b>Space/Enter</b>: Start Scene, <b>Z</b>: Prev Page, <b>X</b>: Next Page, <b>F</b>: Toggle Favourite<br/>
+                            <b>Q</b>: Search, <b>C</b>: Controls, <b>O</b>: Options, <b>R</b>: Random, <b>M</b>: Shuffle, <b>J</b>: Switch H/Story, <b>K</b>: Switch Scene/CG<br/>
+                            <b>Long Tap</b>: Favourite, <b>Swipe Left</b>: Next Page, <b>Swipe Right</b>: Prev Page<br/>
+                            <b>Shift + T</b>: TL Mode
+                        </div>
+                    </div>
+                    <div class="controls-section">
+                        <div class="controls-subhead">
+                            Scene Viewer
+                        </div>
+                        <div class="controls-content">
+                            <b>Left Click</b>: Progress Scene, <b>Scroll Up</b> Open Backlog<br/>
+                            <b>Space/Enter</b>: Progress Scene, <b>A</b>: Toggle Auto Mode, <b>Left Ctrl (Hold)</b>: Skip, <b>Esc</b>: Close Scene, <b>H</b>: Hide Text Box<br/>
+                            <b>Tap</b>: Progress Scene, <b>Tap (Hold)</b>: Skip
+                        </div>
+                    </div>
+                    <div class="controls-section">
+                        <div class="controls-subhead">
+                            CG Viewer
+                        </div>
+                        <div class="controls-content">
+                            The CG viewer will cycle through all scenes that appear in the scene select menu, so if you've done a search you won't see anything that didn't come up in the search result.<br/><br/>
+                            <b>Randomise Scenes</b>: Instead of carrying on to the scene that appears next in scene select a random scene from scene select is chosen instead. This is random so it's possible to come across one scene multiple times before another.<br/><br/>
+                            <b>Shuffle Scenes</b>: The scenes from scene select will be shuffled upon opening the CG viewer, so they'll be in a random order but also fixed in that order until the CG viewer is reopened.<br/><br/>
+                            <b>Randomise Images</b>: No order at all it just selects a random scene from scene select and a random image from that scene.<br/><br/>
+                            There is no backlog when one of the random options are selected, going backwards in one of the random modes will give you a random scene/image not the previous CG/Scene.<br>
+                            The Play Scene button will start the scene that the current CG is from.<br/><br/>
+                            <b>Left Click</b>: Next CG, <b>Right Click</b>: Prev CG<br/>
+                            <b>A</b>: Prev CG, <b>D</b>: Next CG, <b>W</b>: Next Scene, <b>S</b>: Previous Scene, <b>G</b>: Toggle Slideshow Mode, <b>Esc</b>: Exit<br/>
+                            <b>Swipe Left</b>: Next CG, <b>Swipe Right</b>: Prev CG<br/>
+                        </div>
+                    </div>
+                    <div class="controls-section">
+                        <div class="controls-subhead">
+                            Search
+                        </div>
+                        <div class="controls-content">
+                            Press the search button to open the search menu.<br />
+                            Certain characters can be searched by multiple forms, e.g. Young Asagi, Clone Asagi, Adult Asagi, Characters like this also have a base searchable name which will search for all of the forms, usually the characters full name, e.g. Igawa Asagi.<br/>
+                            CVs are also searchable by the characters they voice, e.g. searching Yukikaze VA will return results for Himuro Yuri.<br/>
+                            Seperate values with a comma (,) e.g. Asagi, Sakura, Murasaki.<br/>
+                            Exclude values from search results by starting them with either an exclamation mark (!) or dash (-).<br/>
+                            Inputs with a Match All checkbox next to them make it so that a scene must match ALL of the tags specified to appear as a result, otherwise just a single match is fine.<br/>
+                            Match all does not apply to exclusions, searching !Big Breasts, !Dark Skin will exclude all scenes tagged with Big Breasts OR Dark Skin not Big Breasts AND Dark Skin.</br/>
+                            Ticking Exclusive Characters only searches for characters that debuted in RPGX or TABA, this also includes character forms.<br>
+                            Ticking Main Series Characters only searches for characters that debuted outside of RPGX and TABA.<br/>
+                            Ticking Favourites Only searches for the scenes you have favourited.<br/>
+                            Ticking Translated Only searches for scenes that have an available translation.<br/>
+                            Pressing the Reset button will reset the scene select menu back to its default.
+                        </div>
+                    </div>
+                    <div class="controls-section">
+                        <div id="controls-close" class="styled-btn">Close</div>
+                    </div>
+                </div>
+                <div id="options">
+                    <div id="options-wrap">
+                        <div id="options-head">
+                            <div id="option-general" class="option-button styled-btn option-head-btn">General</div>
+                            <div id="option-scene" class="option-button styled-btn option-head-btn">Scene</div>
+                            <div id="option-cg" class="option-button styled-btn option-head-btn">CG</div>
+                            <div id="option-misc" class="option-button styled-btn option-head-btn">Misc</div>
+                        </div>
+                        <div id="options-page-wrap">
+                            <div id="options-page-general" class="options-page">
+                                <div class="option-num">
+                                    Scene Select Columns:<input type="number" name="select-columns" min="1" max="25">
+                                </div>
+                                <div class="option-num">
+                                    Scene Select Rows:<input type="number" name="select-rows" min="1" max="25">
+                                </div>
+                                <div class="option-range">
+                                    <label class="range-label">BGM</label>
+                                    <input class="range-option" type="range" name="audio-bgm-range" min="0" max="100">
+                                    <input class="range-number" type="number" name="audio-bgm-number" min="0" max="100">
+                                </div>
+                                <div class="option-range">
+                                    <label class="range-label">SE</label>
+                                    <input class="range-option" type="range" name="audio-se-range" min="0" max="100">
+                                    <input class="range-number" type="number" name="audio-se-number" min="0" max="100">
+                                </div>
+                                <div class="option-range">
+                                    <label class="range-label">Voice</label>
+                                    <input class="range-option" type="range" name="audio-voice-range" min="0" max="100">
+                                    <input class="range-number" type="number" name="audio-voice-number" min="0" max="100">
+                                </div>
+                                <div class="scene-radio-options">
+                                    <div class="option-radio">
+                                        <label class="radio-label">Spine Animations</label>
+                                        <input class="radio-true" type="radio" name="spine-animation" value="true" checked><input class="radio-false" type="radio" name="spine-animation" value="false">
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Touch Controls</label>
+                                        <input class="radio-true" type="radio" name="touch-support" value="true"><input class="radio-false" type="radio" name="touch-support" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Pause on Focus Loss</label>
+                                        <input class="radio-true" type="radio" name="pause-on-focus-loss" value="true" checked><input class="radio-false" type="radio" name="pause-on-focus-loss" value="false">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="option-page-scene" class="options-page">
+                                <div class="scene-radio-options">
+                                    <div class="option-radio">
+                                        <label class="radio-label">Enable Translations</label>
+                                        <input class="radio-true" type="radio" name="scene-eng" value="true"><input class="radio-false" type="radio" name="scene-eng" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Skip Animations</label>
+                                        <input class="radio-true" type="radio" name="scene-skip-anim" value="true"><input class="radio-false" type="radio" name="scene-skip-anim" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Text Box Under</label>
+                                        <input class="radio-true" type="radio" name="scene-text-box-under" value="true"><input class="radio-false" type="radio" name="scene-text-box-under" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Cut voice</label>
+                                        <input class="radio-true" type="radio" name="scene-cut-voice" value="true"><input class="radio-false" type="radio" name="scene-cut-voice" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Copy Text</label>
+                                        <input class="radio-true" type="radio" name="copy-text" value="true"><input class="radio-false" type="radio" name="copy-text" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Translate Names</label>
+                                        <input class="radio-true" type="radio" name="tl-names" value="true"><input class="radio-false" type="radio" name="tl-names" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Play Next Related</label>
+                                        <input class="radio-true" type="radio" name="play-next" value="true"><input class="radio-false" type="radio" name="play-next" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Straight To Action</label>
+                                        <input class="radio-true" type="radio" name="straight-to-action" value="true"><input class="radio-false" type="radio" name="straight-to-action" value="false" checked>
+                                    </div>
+                                </div>
+                                <div class="option-scene-viewer-auto">
+                                    <div class="option-sub-head">
+                                        Auto Mode
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Wait for Voice</label>
+                                        <input class="radio-true" type="radio" name="scene-auto-voice" value="true"><input class="radio-false" type="radio" name="scene-auto-voice" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Start in Auto</label>
+                                        <input class="radio-true" type="radio" name="scene-start-auto" value="true"><input class="radio-false" type="radio" name="scene-start-auto" value="false" checked>
+                                    </div>
+                                    <div class="option-num">
+                                        CPS
+                                        <input type="number" name="scene-auto-cps" min="1" max="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="options-page-cg" class="options-page">
+                                <div class="cg-radio-options">
+                                    <div class="option-radio">
+                                        <label class="radio-label">Randomise Scenes</label>
+                                        <input class="radio-true" type="radio" name="cg-random-scene" value="true"><input class="radio-false" type="radio" name="cg-random-scene" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Shuffle Scenes</label>
+                                        <input class="radio-true" type="radio" name="cg-shuffle-scene" value="true"><input class="radio-false" type="radio" name="cg-shuffle-scene" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Randomise Images</label>
+                                        <input class="radio-true" type="radio" name="cg-random-img" value="true"><input class="radio-false" type="radio" name="cg-random-img" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Slideshow Mode</label>
+                                        <input class="radio-true" type="radio" name="cg-slideshow" value="true"><input class="radio-false" type="radio" name="cg-slideshow" value="false" checked>
+                                    </div>
+                                    <div class="option-radio">
+                                        <label class="radio-label">Fade Effect</label>
+                                        <input class="radio-true" type="radio" name="cg-fade-effect" value="true"><input class="radio-false" type="radio" name="cg-fade-effect" value="false" checked>
+                                    </div>
+                                </div>
+                                <div class="option-num">
+                                    Slideshow Time Per CG (ms)
+                                    <input type="number" name="cg-slide-wait" min="100" max="100000" step="100">
+                                </div>
+                            </div>
+                            <div id="options-page-misc" class="options-page">
+                                <div class="option-range">
+                                    <label class="range-label">Scale</label>
+                                    <input class="range-option" type="range" name="viewer-scale-range" min="50" max="100" step="5">
+                                    <input class="range-number" type="number" name="viewer-scale-number" min="50" max="100" step="5">
+                                </div>
+                                <div class="option-radio">
+                                    <label class="radio-label">Loading Screen</label>
+                                    <input class="radio-true" type="radio" name="viewer-loading-screen" value="true"><input class="radio-false" type="radio" name="viewer-loading-screen" value="false" checked>
+                                </div>
+                                <div class="option-num">
+                                    File Loaders
+                                    <input type="number" name="viewer-file-loaders" min="1" max="12" step="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="options-foot">
+                            <div id="option-cancel" class="option-button styled-btn">Cancel</div>
+                            <div id="option-reset" class="option-button styled-btn">Reset</div>
+                            <div id="option-save" class="option-button styled-btn">Save</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tl-choice-box">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="styled-btn main-btn">Exit</div>
+            <div class="styled-btn main-btn">Skip</div>
+            <div class="styled-btn main-btn">Select: Scene</div>
+            <div class="styled-btn main-btn">Mode: Scene</div>
+        </div>
+        <div id="alert-box">
+                <div id="alert-msg" class="no-select"></div>
+                <div id="alert-opts"></div>
+            </div>
+    </div>
+    <div id="tl-tools-wrap">
+        <div id="tl-tools">
+            <div id="tl-tools-head">
+                <div id="tl-tools-head-file">
+                    <div id="tl-tools-file-name">
+                        <input type="text" name="tl-tools-tl" placeholder="Translator" tabindex="-1" id="tl-tools-tl">
+                        <input type="text" name="tl-tools-lang" placeholder="Language" tabindex="-1" id="tl-tools-lang">
+                    </div>
+                    <div id="tl-tools-file-load">
+                        <label for="tl-tools-load" id="tl-tools-load-label">Load File: </label>
+                        <input type="file" name="tl-tools-load" value="Load File" tabindex="-1" id="tl-tools-load">  
+                    </div>
+                    <div id="tl-tools-save-auto">
+                        <div id="tl-tools-auto-save-check">
+                            <input type="checkbox" name="tl-tools-auto-save" id="tl-tools-auto-save" tabindex="-1">
+                            <label for="tl-tools-auto-save">Backup</label>
+                        </div>
+                        <div id="tl-tools-auto-save-timer">
+                            <label for="tl-tools-auto-save-time">Every: </label>
+                            <input type="text" id="tl-tools-auto-save-time" name="tl-tools-auto-save-time" tabindex="-1"><span> seconds</span>
+                        </div>
+                    </div>
+                    <input type="button" name="tl-tools-save" value="Save File" tabindex="-1" id="tl-tools-save">
+                </div>
+                <div id="tl-tools-functions">
+                    <input type="button" name="tl-tools-auto-names" value="Batch TL Names" tabindex="-1" id="tl-tools-auto-names">
+                    <input type="button" name="tl-tools-test" value="Test Script" tabindex="-1" id="tl-tools-test">
+                </div>
+                
+            </div>
+            <div id="tl-tools-main">
+                <div id="tl-tools-jap-script">
+                    
+                </div>
+                <div id="tl-tools-translated-script">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="tl-tools-name-tl">
+            <div id="name-change-wrap"></div>
+            <div id="name-change-foot">
+                <input type="button" value="Cancel" id="name-change-cancel" tabindex="-1">
+                <input type="button" value="Change Names" id="name-change-confirm" tabindex="-1">
+            </div>
+        </div>
+    </div>
+    <div id="preload-wrap">
+        <div id="preload-perm-elem">
+        </div>
+        <div id="preload-temp-elem">
+        </div>
+        <div id="canvas-hold">
+        </div>
+        <div id="spine-viewers-hold">
+        </div>
+    </div>
+    <div id="tl-mode-notice">
+        TL MODE ACTIVE
+    </div>
+    <script src="data/scripts/data/meta.js"></script>
+    <script src="data/scripts/data/custom.js"></script>
+    <script src="data/scripts/data/names.js"></script>
+    <script src="data/scripts/data/furigana.js"></script>
+    <script src="data/scripts/data/sceneData.js"></script>
+</body>
+
+</html>

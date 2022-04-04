@@ -1,0 +1,9 @@
+{
+  "name": "flower_knight_girl_viewer",
+  "main": "index.html",
+  "window": {
+    "width": 1280,
+    "height": 850,
+    "icon": "data/ui/favicon.png"
+  }
+}
