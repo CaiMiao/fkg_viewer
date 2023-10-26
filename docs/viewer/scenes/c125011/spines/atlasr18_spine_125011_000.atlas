@@ -1,0 +1,376 @@
+
+r18_spine_125011_000.png
+size: 2037,1867
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ArmL
+  rotate: false
+  xy: 1152, 255
+  size: 624, 505
+  orig: 624, 505
+  offset: 0, 0
+  index: -1
+ArmR
+  rotate: false
+  xy: 1919, 1695
+  size: 116, 170
+  orig: 116, 170
+  offset: 0, 0
+  index: -1
+ArmRR
+  rotate: false
+  xy: 2, 627
+  size: 229, 404
+  orig: 229, 404
+  offset: 0, 0
+  index: -1
+BabyBottle
+  rotate: false
+  xy: 1515, 1479
+  size: 102, 218
+  orig: 102, 218
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 233, 525
+  size: 486, 385
+  orig: 486, 385
+  offset: 0, 0
+  index: -1
+Bottle_Milk
+  rotate: false
+  xy: 112, 1825
+  size: 74, 40
+  orig: 74, 40
+  offset: 0, 0
+  index: -1
+BreastL
+  rotate: false
+  xy: 2, 1652
+  size: 170, 171
+  orig: 170, 171
+  offset: 0, 0
+  index: -1
+BreastR
+  rotate: false
+  xy: 1068, 1713
+  size: 141, 152
+  orig: 141, 152
+  offset: 0, 0
+  index: -1
+Breath
+  rotate: false
+  xy: 369, 1603
+  size: 206, 170
+  orig: 206, 170
+  offset: 0, 0
+  index: -1
+Center
+  rotate: false
+  xy: 2, 1863
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+ClothesBack
+  rotate: false
+  xy: 1517, 1699
+  size: 290, 166
+  orig: 290, 166
+  offset: 0, 0
+  index: -1
+ClothesL
+  rotate: false
+  xy: 1268, 1184
+  size: 325, 293
+  orig: 325, 293
+  offset: 0, 0
+  index: -1
+ClothesL_Back
+  rotate: false
+  xy: 696, 1740
+  size: 139, 125
+  orig: 139, 125
+  offset: 0, 0
+  index: -1
+ClothesR
+  rotate: false
+  xy: 1595, 1142
+  size: 423, 298
+  orig: 423, 298
+  offset: 0, 0
+  index: -1
+ClothesR_Back
+  rotate: false
+  xy: 66, 1835
+  size: 44, 30
+  orig: 44, 30
+  offset: 0, 0
+  index: -1
+Eye_closeL
+  rotate: false
+  xy: 442, 1775
+  size: 70, 90
+  orig: 70, 90
+  offset: 0, 0
+  index: -1
+Eye_closeR
+  rotate: false
+  xy: 381, 1792
+  size: 59, 73
+  orig: 59, 73
+  offset: 0, 0
+  index: -1
+Eye_open
+  rotate: false
+  xy: 920, 1515
+  size: 138, 207
+  orig: 138, 207
+  offset: 0, 0
+  index: -1
+Eye_openN
+  rotate: false
+  xy: 514, 1775
+  size: 71, 90
+  orig: 71, 90
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: false
+  xy: 1809, 1696
+  size: 108, 169
+  orig: 108, 169
+  offset: 0, 0
+  index: -1
+EyebrowW
+  rotate: false
+  xy: 800, 1524
+  size: 118, 198
+  orig: 118, 198
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 2, 1033
+  size: 350, 314
+  orig: 350, 314
+  offset: 0, 0
+  index: -1
+FaceHair
+  rotate: false
+  xy: 946, 1222
+  size: 320, 291
+  orig: 320, 291
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 721, 426
+  size: 429, 430
+  orig: 429, 430
+  offset: 0, 0
+  index: -1
+HairBack
+  rotate: false
+  xy: 618, 1229
+  size: 326, 284
+  orig: 326, 284
+  offset: 0, 0
+  index: -1
+HairFlower
+  rotate: false
+  xy: 1211, 1707
+  size: 304, 158
+  orig: 304, 158
+  offset: 0, 0
+  index: -1
+HairFrontBack
+  rotate: false
+  xy: 2, 2
+  size: 424, 521
+  orig: 424, 521
+  offset: 0, 0
+  index: -1
+HairL
+  rotate: false
+  xy: 1363, 1501
+  size: 150, 204
+  orig: 150, 204
+  offset: 0, 0
+  index: -1
+HairLL
+  rotate: false
+  xy: 1565, 762
+  size: 417, 378
+  orig: 417, 378
+  offset: 0, 0
+  index: -1
+HairR
+  rotate: false
+  xy: 577, 1553
+  size: 221, 185
+  orig: 221, 185
+  offset: 0, 0
+  index: -1
+HairRR
+  rotate: false
+  xy: 926, 858
+  size: 238, 362
+  orig: 238, 362
+  offset: 0, 0
+  index: -1
+HairRR_Back
+  rotate: false
+  xy: 587, 1745
+  size: 107, 120
+  orig: 107, 120
+  offset: 0, 0
+  index: -1
+LegL
+  rotate: false
+  xy: 2, 1349
+  size: 380, 252
+  orig: 380, 252
+  offset: 0, 0
+  index: -1
+LegR
+  rotate: false
+  xy: 1619, 1442
+  size: 228, 252
+  orig: 228, 252
+  offset: 0, 0
+  index: -1
+LowerBody
+  rotate: false
+  xy: 634, 912
+  size: 290, 315
+  orig: 290, 315
+  offset: 0, 0
+  index: -1
+MaskMosaic1
+  rotate: false
+  xy: 912, 1724
+  size: 154, 141
+  orig: 154, 141
+  offset: 0, 0
+  index: -1
+Men
+  rotate: false
+  xy: 1166, 813
+  size: 397, 369
+  orig: 397, 369
+  offset: 0, 0
+  index: -1
+Milk
+  rotate: false
+  xy: 1060, 1515
+  size: 301, 190
+  orig: 301, 190
+  offset: 0, 0
+  index: -1
+Milk2
+  rotate: false
+  xy: 188, 1818
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+Milk3
+  rotate: false
+  xy: 40, 1838
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+Milk_Dorop
+  rotate: false
+  xy: 21, 1851
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Mouth_close
+  rotate: false
+  xy: 283, 1807
+  size: 38, 58
+  orig: 38, 58
+  offset: 0, 0
+  index: -1
+Mouth_open
+  rotate: false
+  xy: 239, 1813
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+Mouth_openN
+  rotate: false
+  xy: 323, 1802
+  size: 56, 63
+  orig: 56, 63
+  offset: 0, 0
+  index: -1
+Penis
+  rotate: false
+  xy: 174, 1623
+  size: 193, 177
+  orig: 193, 177
+  offset: 0, 0
+  index: -1
+Semen
+  rotate: false
+  xy: 837, 1739
+  size: 73, 126
+  orig: 73, 126
+  offset: 0, 0
+  index: -1
+WhiteSpot
+  rotate: false
+  xy: 6, 1852
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+splash1
+  rotate: false
+  xy: 354, 913
+  size: 278, 314
+  orig: 278, 314
+  offset: 0, 0
+  index: -1
+splash2
+  rotate: false
+  xy: 384, 1271
+  size: 232, 280
+  orig: 232, 280
+  offset: 0, 0
+  index: -1
+
+r18_spine_125011_000_2.png
+size: 1995,1210
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 488
+  size: 1080, 720
+  orig: 1080, 720
+  offset: 0, 0
+  index: -1
+Multiply
+  rotate: false
+  xy: 1084, 2
+  size: 812, 534
+  orig: 812, 534
+  offset: 0, 0
+  index: -1
+Screen
+  rotate: false
+  xy: 1084, 538
+  size: 909, 670
+  orig: 909, 670
+  offset: 0, 0
+  index: -1
