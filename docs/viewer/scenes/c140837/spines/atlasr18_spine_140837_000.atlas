@@ -1,0 +1,424 @@
+
+r18_spine_140837_000.png
+size: 2044,1810
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ArmR
+  rotate: false
+  xy: 204, 1352
+  size: 241, 208
+  orig: 241, 208
+  offset: 0, 0
+  index: -1
+ArmRR
+  rotate: false
+  xy: 1406, 1501
+  size: 112, 196
+  orig: 112, 196
+  offset: 0, 0
+  index: -1
+Back_VeilL
+  rotate: false
+  xy: 1744, 890
+  size: 178, 548
+  orig: 178, 548
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 657
+  size: 468, 326
+  orig: 468, 326
+  offset: 0, 0
+  index: -1
+BodyY
+  rotate: false
+  xy: 2, 1030
+  size: 343, 320
+  orig: 343, 320
+  offset: 0, 0
+  index: -1
+BreastL
+  rotate: false
+  xy: 652, 1270
+  size: 245, 253
+  orig: 245, 253
+  offset: 0, 0
+  index: -1
+BreastR
+  rotate: false
+  xy: 2, 1595
+  size: 225, 174
+  orig: 225, 174
+  offset: 0, 0
+  index: -1
+BreastR_Kabuse
+  rotate: false
+  xy: 673, 1716
+  size: 90, 92
+  orig: 90, 92
+  offset: 0, 0
+  index: -1
+BreastR_KabuseE
+  rotate: false
+  xy: 286, 1731
+  size: 50, 77
+  orig: 50, 77
+  offset: 0, 0
+  index: -1
+Breath
+  rotate: false
+  xy: 844, 1525
+  size: 166, 181
+  orig: 166, 181
+  offset: 0, 0
+  index: -1
+Center
+  rotate: false
+  xy: 2, 1806
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+Cheek
+  rotate: false
+  xy: 619, 1537
+  size: 223, 177
+  orig: 223, 177
+  offset: 0, 0
+  index: -1
+CheekK
+  rotate: false
+  xy: 1012, 1524
+  size: 223, 181
+  orig: 223, 181
+  offset: 0, 0
+  index: -1
+Clothes
+  rotate: false
+  xy: 1123, 1232
+  size: 372, 267
+  orig: 372, 267
+  offset: 0, 0
+  index: -1
+ClothesBack
+  rotate: false
+  xy: 1662, 1682
+  size: 157, 126
+  orig: 157, 126
+  offset: 0, 0
+  index: -1
+ClothesS
+  rotate: false
+  xy: 2, 142
+  size: 417, 513
+  orig: 417, 513
+  offset: 0, 0
+  index: -1
+ClothesSS
+  rotate: false
+  xy: 1497, 1174
+  size: 245, 324
+  orig: 245, 324
+  offset: 0, 0
+  index: -1
+Eye_Open
+  rotate: false
+  xy: 765, 1716
+  size: 116, 92
+  orig: 116, 92
+  offset: 0, 0
+  index: -1
+Eye_OpenN
+  rotate: false
+  xy: 883, 1713
+  size: 118, 95
+  orig: 118, 95
+  offset: 0, 0
+  index: -1
+Eye_close
+  rotate: false
+  xy: 558, 1717
+  size: 113, 91
+  orig: 113, 91
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: false
+  xy: 451, 1721
+  size: 105, 87
+  orig: 105, 87
+  offset: 0, 0
+  index: -1
+EyebrowW
+  rotate: false
+  xy: 338, 1728
+  size: 111, 80
+  orig: 111, 80
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 2, 1371
+  size: 200, 222
+  orig: 200, 222
+  offset: 0, 0
+  index: -1
+Front curtain
+  rotate: false
+  xy: 1236, 289
+  size: 506, 488
+  orig: 506, 488
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 899, 1248
+  size: 222, 274
+  orig: 222, 274
+  offset: 0, 0
+  index: -1
+HairKazari
+  rotate: false
+  xy: 1524, 1690
+  size: 136, 118
+  orig: 136, 118
+  offset: 0, 0
+  index: -1
+HairKazariR
+  rotate: false
+  xy: 1975, 1196
+  size: 67, 456
+  orig: 67, 456
+  offset: 0, 0
+  index: -1
+HairL
+  rotate: false
+  xy: 1520, 1500
+  size: 287, 180
+  orig: 287, 180
+  offset: 0, 0
+  index: -1
+HairLL
+  rotate: false
+  xy: 1245, 1700
+  size: 82, 108
+  orig: 82, 108
+  offset: 0, 0
+  index: -1
+HairR
+  rotate: false
+  xy: 421, 2
+  size: 508, 506
+  orig: 508, 506
+  offset: 0, 0
+  index: -1
+HairRBack
+  rotate: false
+  xy: 1003, 1708
+  size: 101, 100
+  orig: 101, 100
+  offset: 0, 0
+  index: -1
+HairRRBack
+  rotate: false
+  xy: 1821, 1664
+  size: 85, 144
+  orig: 85, 144
+  offset: 0, 0
+  index: -1
+Kabuse
+  rotate: false
+  xy: 1809, 1440
+  size: 164, 212
+  orig: 164, 212
+  offset: 0, 0
+  index: -1
+LegR
+  rotate: false
+  xy: 826, 952
+  size: 582, 278
+  orig: 582, 278
+  offset: 0, 0
+  index: -1
+LegRR
+  rotate: false
+  xy: 347, 985
+  size: 477, 283
+  orig: 477, 283
+  offset: 0, 0
+  index: -1
+LowerBody
+  rotate: false
+  xy: 472, 558
+  size: 371, 392
+  orig: 371, 392
+  offset: 0, 0
+  index: -1
+ManHand
+  rotate: false
+  xy: 229, 1562
+  size: 388, 153
+  orig: 388, 153
+  offset: 0, 0
+  index: -1
+ManHandD
+  rotate: false
+  xy: 1106, 1707
+  size: 137, 101
+  orig: 137, 101
+  offset: 0, 0
+  index: -1
+MaskMosaic1
+  rotate: false
+  xy: 447, 1310
+  size: 203, 225
+  orig: 203, 225
+  offset: 0, 0
+  index: -1
+Mouth_Close
+  rotate: false
+  xy: 52, 1781
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+Mouth_open
+  rotate: false
+  xy: 87, 1780
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+Mouth_openN
+  rotate: false
+  xy: 159, 1772
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+Penis
+  rotate: false
+  xy: 1329, 1699
+  size: 193, 109
+  orig: 193, 109
+  offset: 0, 0
+  index: -1
+Semen
+  rotate: false
+  xy: 1237, 1510
+  size: 167, 187
+  orig: 167, 187
+  offset: 0, 0
+  index: -1
+SemenN
+  rotate: false
+  xy: 1908, 1654
+  size: 88, 154
+  orig: 88, 154
+  offset: 0, 0
+  index: -1
+Sizuku1
+  rotate: false
+  xy: 21, 1785
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+Sizuku2
+  rotate: false
+  xy: 192, 1771
+  size: 62, 37
+  orig: 62, 37
+  offset: 0, 0
+  index: -1
+Sizuku3
+  rotate: false
+  xy: 256, 1766
+  size: 28, 42
+  orig: 28, 42
+  offset: 0, 0
+  index: -1
+Sizuku4
+  rotate: false
+  xy: 120, 1774
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+WhiteSpot
+  rotate: false
+  xy: 6, 1795
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+splash1
+  rotate: false
+  xy: 845, 510
+  size: 389, 440
+  orig: 389, 440
+  offset: 0, 0
+  index: -1
+splash2
+  rotate: false
+  xy: 1410, 779
+  size: 326, 393
+  orig: 326, 393
+  offset: 0, 0
+  index: -1
+
+r18_spine_140837_000_2.png
+size: 1769,1491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 65
+  size: 1080, 720
+  orig: 1080, 720
+  offset: 0, 0
+  index: -1
+Back_Veil
+  rotate: false
+  xy: 1461, 785
+  size: 306, 704
+  orig: 306, 704
+  offset: 0, 0
+  index: -1
+HairFrontBack
+  rotate: false
+  xy: 1084, 2
+  size: 602, 781
+  orig: 602, 781
+  offset: 0, 0
+  index: -1
+Screen
+  rotate: false
+  xy: 590, 787
+  size: 869, 702
+  orig: 869, 702
+  offset: 0, 0
+  index: -1
+bress
+  rotate: false
+  xy: 2, 792
+  size: 586, 697
+  orig: 586, 697
+  offset: 0, 0
+  index: -1
+
+r18_spine_140837_000_3.png
+size: 799,918
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Man
+  rotate: false
+  xy: 2, 2
+  size: 795, 914
+  orig: 795, 914
+  offset: 0, 0
+  index: -1

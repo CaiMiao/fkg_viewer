@@ -1,0 +1,289 @@
+<BGM_PLAY>fkg_bgm_hscene001,1000
+<VOICE_PLAY>fkg_144413_hscene001
+<NAME_PLATE>ディアスキア
+「団長さん、すっごく……硬くなってるよ……\n こんなにガチガチにして……だめじゃない」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene002
+<NAME_PLATE>ディアスキア
+「肩こり、ひどすぎだよ～」
+<PAUSE>
+<NAME_PLATE>
+夕食を食べ終わったあと、ディアスキアの勧めでマッサージを受けていた。\n書類仕事で凝り固まった肩が、彼女の手でグイグイと揉みほぐされていく。\n痛みはあるが、それが逆に気持ちがいい。とてもよく効く。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene003
+<NAME_PLATE>ディアスキア
+「肩こりはねぇ、揉むだけじゃなくて、\n こうやって、ぐぐぐ～～～って、するといいんだよ～\n これ、ママたち直伝なんだ～」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアが身体の表面を軽く圧迫しながら手を滑らせていく。\n肩から腕へ、胸へ、背中へと、凝りが押し広げられていくような感覚だ。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene004
+<NAME_PLATE>ディアスキア
+「……団長さん？」
+<PAUSE>
+<NAME_PLATE>
+だが、それはマッサージというよりまるで愛撫。\n一度そう思ってしまったがために、股間が反応してしまった。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene005
+<NAME_PLATE>ディアスキア
+「そういうつもりでマッサージしてたわけじゃないのに……」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene006
+<NAME_PLATE>ディアスキア
+「でも、ボクは団長さんの専属メイドだから……\n 団長さんが望むなら、その……\n そういうご奉仕も、してあげるけど……どうする？」
+<PAUSE>
+<NAME_PLATE>
+恥ずかしそうに聞いてくるディアスキアにたまらなくなり、\nベッドの上で奉仕してもらうことにした。
+<PAUSE>
+<UI_DISP>OFF,0
+<FADE_OUT>black,670
+<EV>r18_144413_000,NONE,0
+<FADE_IN>black,670
+<SPINE>r18_spine_144413_000,2,0,5,0.32
+<SPINE_PLAY>Wait,true
+<FADE_IN2>black,670
+<WAIT2>500
+<UI_DISP>ON,0
+<VOICE_PLAY>fkg_144413_hscene007
+<NAME_PLATE>ディアスキア
+「んあぁぁぁ……\n んんっ……入って、くる……っ」
+<PAUSE>
+<NAME_PLATE>
+ベッドの上で、こちらに跨ったディアスキアが腰を落としていく。\nペニスが彼女のヴァギナに\nゆっくりと飲み込まれていく快感に身震いする。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene008
+<NAME_PLATE>ディアスキア
+「はぁ、はぁ、んっ……入れるだけでも、すっごく気持ちいい……\n 団長さんはどう？ 気持ちいい？」
+<PAUSE>
+<NAME_PLATE>
+ペニスはさらに硬さを増して勃起していた。\n言うまでもない。
+<PAUSE>
+<NAME_PLATE>
+それよりも気になるのは、ディアスキアの体勢だ。\n背を向けられると、ディアスキアの顔が見えない。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene009
+<NAME_PLATE>ディアスキア
+「それは……えっと……\n ほら、顔が見えないほうが、行為に集中できるでしょ？\n 顔を見られるのは恥ずかしいし」
+<PAUSE>
+<NAME_PLATE>
+たしかに納得できる理由だ。\nしかし、ディアスキアの顔が見えないのは寂しい。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene010
+<NAME_PLATE>ディアスキア
+「これは、あくまでも……んっ……\n 団長さんへの、メイドの奉仕なんだから……んっ……\n ボクのことは、気にしないで、んっ、いいよ……」
+<PAUSE>
+<NAME_PLATE>
+そう言いながら、\nディアスキアは腰を前後にゆっくり動かし始めた。\n性器同士が擦れ合うたびに、控えめな水音がする。
+<PAUSE>
+<SPINE_PLAY>Normal,true
+<VOICE_PLAY>fkg_144413_hscene011
+<NAME_PLATE>ディアスキア
+「んんっ……あぁ……はぁ、んっ……はぁ、んっ……\n 団長さんは、動かなくて、んっ……いいからね……んぅ……\n はぁ、んっ……奉仕じゃ、なくなっちゃうから……んっ……」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene012
+<NAME_PLATE>ディアスキア
+「はぁ、はぁ、んっ……あぁ、これ、いい……んっ……\n はぁ、はぁ……団長さんの、いつもより硬くて、んっ、ゾクゾクする……」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアの申し出を断ることなく身を任せるつもりだったが、\n一方的にされるだけではやはり物足りない。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene013
+<NAME_PLATE>ディアスキア
+「んひゃうっ！？」
+<PAUSE>
+<NAME_PLATE>
+そこでディアスキアの乳房に手を伸ばした。\n触られると思っていなかったのか、彼女が驚きの声を上げ、\n身体がわずかにビクンと震えた。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene014
+<NAME_PLATE>ディアスキア
+「動かなくていいって、んっ……\n 言ったのに……んんっ……」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアの邪魔をするつもりはない。\nこれはただの手慰みだ。\nそれに、ディアスキアも感じてくれたほうが嬉しいし、\nそのほうが興奮する。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene015
+<NAME_PLATE>ディアスキア
+「それは、んっ、そうかも、だけど……はぁ、んっ……\n でも……ボクのおっぱい、大きくないでしょ？」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene016
+<NAME_PLATE>ディアスキア
+「団長さんの周りには、んっ、ボクのより大きなおっぱいの花騎士、\n たくさん、いるし……\n こんなおっぱい、触っても、楽しくないんじゃ……」
+<PAUSE>
+<NAME_PLATE>
+たしかに花騎士に限らず、\nディアスキアの乳房より大きな乳房の女性はそれなりにいる。\nそれは事実だ。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene017
+<NAME_PLATE>ディアスキア
+「ふぁあああっ！\n んっ、急に、あっ、激しくっ、んんっ！」
+<PAUSE>
+<NAME_PLATE>
+だが、手のひらに収まりきらないほどの\n立派なものをぶら下げておいて、なにが『大きくない』だ。\n謙遜するにもほどがある。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene018
+<NAME_PLATE>ディアスキア
+「あっ、んっ、そんな、激しく、しないでっ、\n んっ、あぁ！ だめぇ、だめぇ！」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアの豊満な乳房を、両手で下から弾ませる。\nタプタプと音がしそうな弾力と、圧倒的なボリュームだ。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene019
+<NAME_PLATE>ディアスキア
+「んっ、あっ、だめ、んっ、おっぱいで、んっ、おっぱいだけで、\n 気持ち良くなっちゃうからっ！\n んっ、謝るからっ！ も、もう言わないからぁ！」
+<PAUSE>
+<NAME_PLATE>
+軽いお仕置きに、ディアスキアはあっけなく降参した。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene020
+<NAME_PLATE>ディアスキア
+「はぁ、はぁ、んっ……\n おっぱいだけで、イかされるところだった……\n んっ、はぁ、はぁ、ボクが、団長さんに、奉仕してるのに……」
+<PAUSE>
+<NAME_PLATE>
+上を見ればキリがない。\n重要なのは大きさや形ではなく、\n愛する人が感じてくれることだ。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene021
+<NAME_PLATE>ディアスキア
+「あ、愛する……人……\n ふ、ふ～ん……」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアの動きが急に緩慢になった。\n表情は見えないが、どうやら照れているらしい。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene022
+<NAME_PLATE>ディアスキア
+「それなら、団長さんに、たくさん揉んでもらおうかな～\n そうすれば、もっと大きくなるかもしれないもんね～？」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアが振り向いて、\nいたずらっぽく微笑みかけてくる。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene023
+<NAME_PLATE>ディアスキア
+「ぁんっ……」
+<PAUSE>
+<NAME_PLATE>
+そういうことならと、乳房への愛撫を再開する。\nやさしく、丁寧に、乳房全体を包み込むように揉んでいく。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene024
+<NAME_PLATE>ディアスキア
+「あっ……んっ……さっきと、触り方、違う……んっ……\n やだ……んっ……団長さんの手つき、やらしい……んぅ……\n はぁ、はぁ、んっ……そんな触り方されたら、んっ……あっ……んっ……」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene025
+<NAME_PLATE>ディアスキア
+「ひゃう！ んっ、乳首、敏感だから、んっ、あっ、あぁ……\n んっ、はぁ、はぁ、んっ、いい……んっ……乳首、気持ちいいよぉ……」
+<PAUSE>
+<NAME_PLATE>
+乳首を指先で弄ぶと、\nディアスキアも腰を前後にくねらせはじめた。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene026
+<NAME_PLATE>ディアスキア
+「ボク、んっ、はぁ、はぁ、ボクが、奉仕、するんだから……んっ……\n はぁ、はぁ、んっ、あっ、いい……」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアが激しく上下に腰を使い始めると、\n性器同士がしっかりと擦れ合うようになり、強い快感が返ってくる。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene027
+<NAME_PLATE>ディアスキア
+「団長さん、んっ、息、乱れてきてるよ……んっ……\n はぁ、はぁ、気持ちよくなってきた、みたいだね？\n んっ、はぁ、はぁ、あんっ……はぁ、はぁ、んっ、あんっ！」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene028
+<NAME_PLATE>ディアスキア
+「ん、出したくなったら、いつでも出していいから……\n んっ、あっ、はぁ、はぁんっ！」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアの腰使いに射精感が膨れ上がり、\n我慢できずに下から突き上げた。
+<PAUSE>
+<SPINE_PLAY>Fast,true
+<VOICE_PLAY>fkg_144413_hscene029
+<NAME_PLATE>ディアスキア
+「あんっ！ あっ、んぅ！ 動かないで、いいって、んんぅ！\n 言ったのに、んっ、あんっ！」
+<PAUSE>
+<NAME_PLATE>
+動かないつもりだったが、\n快感を求める本能には逆らえなかった。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene030
+<NAME_PLATE>ディアスキア
+「あっ、んっ、はぁ、はぁ、うん、いいよ、んっ！\n 一緒に、一緒に気持ち良くなろっ？\n んっ、はぁ、んっ、はぁ、はぁ、ぁんっ！」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene031
+<NAME_PLATE>ディアスキア
+「あぁ、んっ、あっ、これ、んぅ！ 団長さんの、おちんちん、\n 気持ちいいところに、んっ、当たって、んっ、はぅ！\n あっ、いいっ！ 当たって、あぁっ！ 当たってっ！ んんっ！」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene032
+<NAME_PLATE>ディアスキア
+「あぁそこそこそこっ！ んんっ！ はぅ！ んっ！\n あぁぁ！ だめ、ボク、もうイっちゃいそう！ 団長さん、ボク、イっちゃう！」
+<PAUSE>
+<NAME_PLATE>
+こちらも射精の欲求は最高潮に達している。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene033
+<NAME_PLATE>ディアスキア
+「はぁ、はぁんっ！ 出して！ 団長さん！\n いっぱい出して！ んっ！ ぁんっ！ はぁ、はぁ、んんぅっ！\n ボクの中に、いっぱいっ！ いっぱいっ！ ぁんっ、出して！」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene034
+<NAME_PLATE>ディアスキア
+「団長さん、団長さんっ！ イク、イっちゃう！\n ボクもう、イク！ んっ！ あっ！ はぁ、はぁ、はぁぁぁああ！\n イっちゃ！ んっ！ あぁぁあ！」
+<PAUSE>
+<FADE_OUT>white,100
+<FADE_IN>white,100
+<WAIT>100
+<FADE_OUT>white,200
+<FADE_IN>white,200
+<WAIT>100
+<FADE_OUT>white,200
+<FADE_IN>white,200
+<FADE_OUT>white,670
+<EV>r18_144413_001,NONE,0
+<FADE_IN>white,670
+<SPINE_PLAY>Finish,false
+<WAIT2>2000
+<FADE_OUT2>white,100
+<FADE_IN2>white,100
+<WAIT2>100
+<FADE_OUT2>white,200
+<FADE_IN2>white,200
+<WAIT2>100
+<FADE_OUT2>white,200
+<FADE_IN2>white,200
+<FADE_OUT2>white,670
+<SPINE_PLAY>After,true
+<FADE_IN2>white,670
+<VOICE_PLAY>fkg_144413_hscene035
+<NAME_PLATE>ディアスキア
+「あぁぁ……んんんっ！\n はぁ、んっ、あっ……あぁっ！ んんんっ！」
+<PAUSE>
+<NAME_PLATE>
+堪え切れなくなった精子を、ディアスキアの一番奥で解き放った。\nゾクゾクする快感の悦びに、ペニスが脈打つ。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene036
+<NAME_PLATE>ディアスキア
+「団長さんっ、んっ、ボク、イって、んんっ！\n はぁ、はぁ、んんっ！」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene037
+<NAME_PLATE>ディアスキア
+「こんなに、気持ち、いいのっ……んっ、はぁ、はぁ……初めて……\n んんっ、はぁ、はぁ……はあ、はぁ、はぁ……」
+<PAUSE>
+<NAME_PLATE>
+背中が汗でしっとりと濡れているディアスキアが、乱れた息を整える。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene038
+<NAME_PLATE>ディアスキア
+「団長さんの……すごい……出てる……\n ボクのご奉仕で、ちゃんと団長さんを気持ち良くできたってこと？」
+<PAUSE>
+<NAME_PLATE>
+彼女の問いかけに、静かに頷いてみせる。
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene039
+<NAME_PLATE>ディアスキア
+「そっか……ふふっ……よかった……\n 夜のご奉仕、ちゃんとできて、嬉しいな……」
+<PAUSE>
+<VOICE_PLAY>fkg_144413_hscene040
+<NAME_PLATE>ディアスキア
+「またご奉仕してほしくなったら、いつでも言ってね？\n 次も必ず、団長さんを満足させてあげる……約束するから」
+<PAUSE>
+<NAME_PLATE>
+ディアスキアがいたずらっぽく微笑んで、\nこちらにしなだれかかってきた。
+<PAUSE>
+<FADE_OUT>black,670
+<FADE_OUT2>black,670
+<BGM_STOP>500
+<UI_DISP>OFF, 500
+<BG_OUT>500
+<SCENARIO_END>
