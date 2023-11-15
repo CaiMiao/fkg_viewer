@@ -1926,6 +1926,24 @@ var CHAR = {
             "クリスマス"
           ]
         }
+      },
+      blessing: {
+        name: {
+          eng: "Cattleya (Life Tree's Blessing)",
+          engAlias: [
+            "Cattleya",
+            "Life Cattleya",
+            "Life",
+            "Tree's",
+            "Blessing Tree's",
+            "Blessing"
+          ],
+          jap: "カトレア(生命樹の祝福)",
+          japAlias: [
+            "カトレア",
+            "生命樹の祝福"
+          ]
+        }
       }
     }
   },
@@ -3127,6 +3145,25 @@ var CHAR = {
           japAlias: [
             "セルリア",
             "きぐるみ教師見習い"
+          ]
+        }
+      },
+      blessing: {
+        name: {
+          eng: "Blushing Bride (Life Tree's Blessing)",
+          engAlias: [
+            "Blushing",
+            "Bride Blushing",
+            "Bride",
+            "Life",
+            "Tree's Life",
+            "Tree's",
+            "Blessing"
+          ],
+          jap: "セルリア(生命樹の祝福)",
+          japAlias: [
+            "セルリア",
+            "生命樹の祝福"
           ]
         }
       }
@@ -7770,71 +7807,6 @@ var CHAR = {
       cv: CV.IGNORE
     }
   },
-  MILIM: {
-    base: {
-      name: {
-        eng: "Milim (China Pink)",
-        engAlias: [
-          "Milim",
-          "China Milim",
-          "China",
-          "Pink"
-        ],
-        jap: "ミリム(セキチク)",
-        japAlias: [
-          "ミリム",
-          "セキチク"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    },
-    form: {
-      pink: {
-        name: {
-          eng: "Milim (China Pink)",
-          engAlias: [
-            "Milim",
-            "China Milim",
-            "China",
-            "Pink"
-          ],
-          jap: "ミリム(セキチク)",
-          japAlias: [
-            "ミリム",
-            "セキチク"
-          ]
-        },
-        tags: [],
-        gender: "female",
-        artist: ARTIST.IGNORE,
-        cv: CV.IGNORE
-      }
-    }
-  },
-  PARALLEL_UNIVERSE_TYRANT: {
-    base: {
-      name: {
-        eng: "Parallel Universe Tyrant",
-        engAlias: [
-          "Parallel",
-          "Universe Parallel",
-          "Universe",
-          "Tyrant"
-        ],
-        jap: "異世界の暴君",
-        japAlias: [
-          "異世界の暴君"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    }
-  },
   STRAWBERRY: {
     base: {
       name: {
@@ -8101,6 +8073,25 @@ var CHAR = {
           japAlias: [
             "ハナモモ",
             "ハロウィン"
+          ]
+        }
+      },
+      blessing: {
+        name: {
+          eng: "Flowering Peach (Life Tree's Blessing)",
+          engAlias: [
+            "Flowering",
+            "Peach Flowering",
+            "Peach",
+            "Life",
+            "Tree's Life",
+            "Tree's",
+            "Blessing"
+          ],
+          jap: "ハナモモ(生命樹の祝福)",
+          japAlias: [
+            "ハナモモ",
+            "生命樹の祝福"
           ]
         }
       }
@@ -9379,71 +9370,6 @@ var CHAR = {
         jap: "クランベリー",
         japAlias: [
           "クランベリー"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    }
-  },
-  SHIZU: {
-    base: {
-      name: {
-        eng: "Shizu (White Enkianthus)",
-        engAlias: [
-          "Shizu",
-          "White Shizu",
-          "White",
-          "Enkianthus"
-        ],
-        jap: "シズ(ドウダンツツジ)",
-        japAlias: [
-          "シズ",
-          "ドウダンツツジ"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    },
-    form: {
-      enkianthus: {
-        name: {
-          eng: "Shizu (White Enkianthus)",
-          engAlias: [
-            "Shizu",
-            "White Shizu",
-            "White",
-            "Enkianthus"
-          ],
-          jap: "シズ(ドウダンツツジ)",
-          japAlias: [
-            "シズ",
-            "ドウダンツツジ"
-          ]
-        },
-        tags: [],
-        gender: "female",
-        artist: ARTIST.IGNORE,
-        cv: CV.IGNORE
-      }
-    }
-  },
-  PARALLEL_UNIVERSE_FLAME_USER: {
-    base: {
-      name: {
-        eng: "Parallel Universe Flame-User",
-        engAlias: [
-          "Parallel",
-          "Universe Parallel",
-          "Universe",
-          "Flame-User"
-        ],
-        jap: "異世界の炎使い",
-        japAlias: [
-          "異世界の炎使い"
         ]
       },
       tags: [],
@@ -10961,69 +10887,6 @@ var CHAR = {
       }
     }
   },
-  SHION: {
-    base: {
-      name: {
-        eng: "Shion (Nokonngiku)",
-        engAlias: [
-          "Shion",
-          "Nokonngiku Shion",
-          "Nokonngiku"
-        ],
-        jap: "シオン(ノコンギク)",
-        japAlias: [
-          "シオン",
-          "ノコンギク"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    },
-    form: {
-      nokonngiku: {
-        name: {
-          eng: "Shion (Nokonngiku)",
-          engAlias: [
-            "Shion",
-            "Nokonngiku Shion",
-            "Nokonngiku"
-          ],
-          jap: "シオン(ノコンギク)",
-          japAlias: [
-            "シオン",
-            "ノコンギク"
-          ]
-        },
-        tags: [],
-        gender: "female",
-        artist: ARTIST.IGNORE,
-        cv: CV.IGNORE
-      }
-    }
-  },
-  PARALLEL_UNIVERSE_WARRIOR: {
-    base: {
-      name: {
-        eng: "Parallel Universe Warrior",
-        engAlias: [
-          "Parallel",
-          "Universe Parallel",
-          "Universe",
-          "Warrior"
-        ],
-        jap: "異世界の武士",
-        japAlias: [
-          "異世界の武士"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    }
-  },
   PYRETHRUM: {
     base: {
       name: {
@@ -11471,6 +11334,26 @@ var CHAR = {
         jap: "アイ",
         japAlias: [
           "アイ"
+        ]
+      },
+      tags: [],
+      gender: "female",
+      artist: ARTIST.IGNORE,
+      cv: CV.IGNORE
+    }
+  },
+  JAPANESE_DOCK: {
+    base: {
+      name: {
+        eng: "Japanese Dock",
+        engAlias: [
+          "Japanese",
+          "Dock Japanese",
+          "Dock"
+        ],
+        jap: "シノネ",
+        japAlias: [
+          "シノネ"
         ]
       },
       tags: [],
@@ -15842,69 +15725,6 @@ var CHAR = {
         jap: "バンテイシ",
         japAlias: [
           "バンテイシ"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    }
-  },
-  TREYNI: {
-    base: {
-      name: {
-        eng: "Treyni (Schefflera)",
-        engAlias: [
-          "Treyni",
-          "Schefflera Treyni",
-          "Schefflera"
-        ],
-        jap: "トレイニー(シェフレラ)",
-        japAlias: [
-          "トレイニー",
-          "シェフレラ"
-        ]
-      },
-      tags: [],
-      gender: "female",
-      artist: ARTIST.IGNORE,
-      cv: CV.IGNORE
-    },
-    form: {
-      schefflera: {
-        name: {
-          eng: "Treyni (Schefflera)",
-          engAlias: [
-            "Treyni",
-            "Schefflera Treyni",
-            "Schefflera"
-          ],
-          jap: "トレイニー(シェフレラ)",
-          japAlias: [
-            "トレイニー",
-            "シェフレラ"
-          ]
-        },
-        tags: [],
-        gender: "female",
-        artist: ARTIST.IGNORE,
-        cv: CV.IGNORE
-      }
-    }
-  },
-  PARALLEL_UNIVERSE_SPIRIT_USER: {
-    base: {
-      name: {
-        eng: "Parallel Universe Spirit-User",
-        engAlias: [
-          "Parallel",
-          "Universe Parallel",
-          "Universe",
-          "Spirit-User"
-        ],
-        jap: "異世界の精霊使い",
-        japAlias: [
-          "異世界の精霊使い"
         ]
       },
       tags: [],
@@ -21980,6 +21800,21 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
+  c112843: {
+    character: [
+      CHAR.CATTLEYA
+    ],
+    form: [
+      "blessing"
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
   c112901: {
     character: [
       CHAR.MONKSHOOD
@@ -23315,6 +23150,21 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
+  c119505: {
+    character: [
+      CHAR.BLUSHING_BRIDE
+    ],
+    form: [
+      "blessing"
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
   c120001: {
     character: [
       CHAR.TUBEROSE
@@ -24360,6 +24210,21 @@ var SCENE = {
     ignoredCharacterTags: []
   },
   c121205: {
+    character: [
+      CHAR.CURCUMA
+    ],
+    form: [
+      "yukata"
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
+  c121205_2: {
     character: [
       CHAR.CURCUMA
     ],
@@ -28583,33 +28448,6 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
-  c131807: {
-    character: [
-      CHAR.MILIM
-    ],
-    form: [
-      "pink"
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
-  c131809: {
-    character: [
-      CHAR.PARALLEL_UNIVERSE_TYRANT
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
   c131811: {
     character: [
       CHAR.SOAPWORT
@@ -29231,6 +29069,21 @@ var SCENE = {
     ],
     form: [
       "christmas"
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
+  c131953: {
+    character: [
+      CHAR.FLOWERING_PEACH
+    ],
+    form: [
+      "blessing"
     ],
     tags: {
       female: [],
@@ -30431,33 +30284,6 @@ var SCENE = {
   c134205: {
     character: [
       CHAR.CRANBERRY
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
-  c134207: {
-    character: [
-      CHAR.SHIZU
-    ],
-    form: [
-      "enkianthus"
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
-  c134209: {
-    character: [
-      CHAR.PARALLEL_UNIVERSE_FLAME_USER
     ],
     tags: {
       female: [],
@@ -32111,33 +31937,6 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
-  c140829: {
-    character: [
-      CHAR.SHION
-    ],
-    form: [
-      "nokonngiku"
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
-  c140831: {
-    character: [
-      CHAR.PARALLEL_UNIVERSE_WARRIOR
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
   c140833: {
     character: [
       CHAR.PYRETHRUM
@@ -32732,6 +32531,18 @@ var SCENE = {
   c141601_2: {
     character: [
       CHAR.JAPANESE_INDIGO
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
+  c141603: {
+    character: [
+      CHAR.JAPANESE_DOCK
     ],
     tags: {
       female: [],
@@ -34092,6 +33903,18 @@ var SCENE = {
     ignoredCharacterTags: []
   },
   c144503: {
+    character: [
+      CHAR.JAPANESE_FELWORT
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
+  c144503_2: {
     character: [
       CHAR.JAPANESE_FELWORT
     ],
@@ -37784,33 +37607,6 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
-  c154801: {
-    character: [
-      CHAR.TREYNI
-    ],
-    form: [
-      "schefflera"
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
-  c154803: {
-    character: [
-      CHAR.PARALLEL_UNIVERSE_SPIRIT_USER
-    ],
-    tags: {
-      female: [],
-      male: [],
-      location: [],
-      misc: []
-    },
-    ignoredCharacterTags: []
-  },
   c154901: {
     character: [
       CHAR.FLAMINGO_PLANT
@@ -39491,7 +39287,31 @@ var SCENE = {
     },
     ignoredCharacterTags: []
   },
+  c160045_2: {
+    character: [
+      CHAR.DRACAENA
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
   c160047: {
+    character: [
+      CHAR.DRAGON_TREE
+    ],
+    tags: {
+      female: [],
+      male: [],
+      location: [],
+      misc: []
+    },
+    ignoredCharacterTags: []
+  },
+  c160047_2: {
     character: [
       CHAR.DRAGON_TREE
     ],
