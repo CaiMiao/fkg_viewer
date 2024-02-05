@@ -1,7 +1,0 @@
-{
-  "outputDirectory": "docs",
-  "redirects": [
-      { "source": "/r18", "destination": "/r18/index.html" },
-      { "source": "/viewer", "destination": "/viewer/index.html" }
-    ]
-}
