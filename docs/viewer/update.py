@@ -30,6 +30,8 @@ SCRIPT_PREFIX = "https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/a
 URL_R18 = 'https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/assets/hscene_r18_spine/'
 # scene folder
 SCENE_PATH = "scenes"
+# difference only manual switch
+DIFF_ONLY = False
 
 def main():
     # get_sceneData()
@@ -49,7 +51,7 @@ def main():
         # 计算文件的年龄（以秒为单位）
         file_age = current_time - file_time
         # 如果文件的年龄超过指定时间，则重新获取数据
-        if file_age > time_interval_in_seconds:
+        if file_age > time_interval_in_seconds or DIFF_ONLY:
             datalist = get_difference_list()
             if not datalist:
                 return
@@ -72,7 +74,8 @@ def main():
                 f.write(str(item) + "\n")
 
     # datalist = [100011]
-    # exit()
+    if DIFF_ONLY:
+        exit()
     sub(datalist)
 
 def sub(datalist):

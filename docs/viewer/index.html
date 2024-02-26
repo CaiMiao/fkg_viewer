@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="data/styles/spine-player.css">
 </head>
 
-<body style="background:#2f2f2f" oncontextmenu="return false;">
+<body style="background:#2f2f2f;display: inline-flex;" oncontextmenu="return false;">
     <div id="body-wrapper">
         <div id="header">
             <div class="styled-btn main-btn">Controls</div>
@@ -38,7 +38,7 @@
                 <div id="next-page"></div>
             </div>
         </div>
-        <div id="content">
+        <div id="content" style="padding: 0;">
             <div id="content-wrap">
                 <div id="loading-wrap">
                     <div id="loading-img"></div>
@@ -61,12 +61,12 @@
                 </div>
                 <div id="story-select">
                     <div id="story-select-head">
-                        
+
                     </div>
                     <div id="story-select-chapter-wrap">
                         <div id="story-select-chapter-choices-scroll-hide">
                             <div id="story-select-chapter-choices">
-                            </div> 
+                            </div>
                         </div>
                     </div>
                     <div id="story-select-section">
@@ -246,7 +246,7 @@
                     </div>
                 </div>
                 <div id="options">
-                    <div id="options-wrap">
+                    <div id="options-wrap" style="margin-inline: auto;">
                         <div id="options-head">
                             <div id="option-general" class="option-button styled-btn option-head-btn">General</div>
                             <div id="option-scene" class="option-button styled-btn option-head-btn">Scene</div>
@@ -420,7 +420,7 @@
                     </div>
                     <div id="tl-tools-file-load">
                         <label for="tl-tools-load" id="tl-tools-load-label">Load File: </label>
-                        <input type="file" name="tl-tools-load" value="Load File" tabindex="-1" id="tl-tools-load">  
+                        <input type="file" name="tl-tools-load" value="Load File" tabindex="-1" id="tl-tools-load">
                     </div>
                     <div id="tl-tools-save-auto">
                         <div id="tl-tools-auto-save-check">
@@ -438,14 +438,14 @@
                     <input type="button" name="tl-tools-auto-names" value="Batch TL Names" tabindex="-1" id="tl-tools-auto-names">
                     <input type="button" name="tl-tools-test" value="Test Script" tabindex="-1" id="tl-tools-test">
                 </div>
-                
+
             </div>
             <div id="tl-tools-main">
                 <div id="tl-tools-jap-script">
-                    
+
                 </div>
                 <div id="tl-tools-translated-script">
-                    
+
                 </div>
             </div>
         </div>
