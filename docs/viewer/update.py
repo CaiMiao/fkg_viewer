@@ -30,12 +30,17 @@ SCRIPT_PREFIX = "https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/a
 URL_R18 = 'https://dugrqaqinbtcq.cloudfront.net/product/ynnFQcGDLfaUcGhp/assets/hscene_r18_spine/'
 # scene folder
 SCENE_PATH = "scenes"
-# difference only manual switch
+# difference only manual toggle
 DIFF_ONLY = False
+# convert translated script manual toggle
+TRANSLATED_SCRIPT = False
 
 def main():
-    # get_sceneData()
-    # exit()
+    if TRANSLATED_SCRIPT:
+        SCENE_PATH = "scenes_tl"
+        get_sceneData()
+        exit()
+
     # 将时间间隔转换为天数
     YOUR_TIME_INTERVAL = 30  # 7天
 
@@ -97,9 +102,6 @@ def sub(datalist):
 
     # 关闭线程池
     executor.shutdown()
-
-    if not os.path.exists("data/scripts/data"):
-        os.makedirs("data/scripts/data")
 
     #获取sceneData.js
     get_sceneData()
@@ -313,6 +315,7 @@ def get_sceneData():
     # 遍历scenes文件夹
     scenes_dir = SCENE_PATH
     scene_data = {}
+    scene_data_name = "sceneData"
 
     for scene_folder in os.listdir(scenes_dir):
         scene_id = scene_folder[1:7]
@@ -326,26 +329,47 @@ def get_sceneData():
         has_spines = os.path.exists(os.path.join(scenes_dir, scene_folder, 'spines'))
 
         if os.path.exists(os.path.join(scenes_dir, scene_folder, 'script.txt')):
-            scene_data[scene_folder] = {
-                "SCRIPTS": {
-                    "PART1": {
-                        "SCRIPT": open(os.path.join(scenes_dir, scene_folder, 'script.txt'), encoding='utf-8').read().split(
-                            '\n'),
-                        "HIERARCHY": {
-                            "pairList": []
-                        },
-                        "NAME": scene_folder,
-                        "THUMBNAIL": f"r18_{scene_id}_000" if form == 1 else f"r18_{scene_id}_100",
-                        "ANIMATED": "1" if has_spines else "0"
+            if not TRANSLATED_SCRIPT:
+                scene_data[scene_folder] = {
+                    "SCRIPTS": {
+                        "PART1": {
+                            "SCRIPT": open(os.path.join(scenes_dir, scene_folder, 'script.txt'), encoding='utf-8').read().split(
+                                '\n'),
+                            "HIERARCHY": {
+                                "pairList": []
+                            },
+                            "NAME": scene_folder,
+                            "THUMBNAIL": f"r18_{scene_id}_000" if form == 1 else f"r18_{scene_id}_100",
+                            "ANIMATED": "1" if has_spines else "0"
+                        }
                     }
                 }
-            }
+            else:
+                scene_data_name = "sceneDataTl"
+                scene_data[scene_folder] = {
+                    "SCRIPTS": {
+                        "PART1": {
+                            "TRANSLATIONS": [
+                                {
+                                    "LANGUAGE": "T",
+                                    "TRANSLATOR": "0",
+                                    "SCRIPT": open(os.path.join(scenes_dir, scene_folder, 'script.txt'), encoding='utf-8').read().split(
+                                        '\n')
+                                }
+                            ],
+                            "NAME": scene_folder
+                        }
+                    }
+                }
         else:
             print("skip script: "+scene_folder)
 
+    if not os.path.exists("data/scripts/data"):
+        os.makedirs("data/scripts/data")
+
     # 输出sceneData.js
-    scene_data_js = f"sceneData = {json.dumps(scene_data, indent=2, ensure_ascii=False)}"
-    with open('data\scripts\data\sceneData.js', 'w', encoding='utf-8') as f:
+    scene_data_js = f"{scene_data_name} = {json.dumps(scene_data, indent=2, ensure_ascii=False)}"
+    with open(f'data\scripts\data\{scene_data_name}.js', 'w', encoding='utf-8') as f:
         f.write(scene_data_js)
 
 # 定义一个函数，用于下载图片，并保存为jpg格式

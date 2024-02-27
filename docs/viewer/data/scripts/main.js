@@ -184,6 +184,7 @@ window.onload = function() {
 	//createAutocompleteData();
 	setScreen();
 	checkScriptRecovery();
+	insertTranslation()
 }
 
 function setScreen(){
@@ -353,4 +354,56 @@ function sendAlert(msg, options){
 		btn.addEventListener("click", opt[1], false);
 		main.elements.alertOpts.appendChild(btn);
 	}
+}
+
+function insertTranslation(){
+    main.elements.loadingFile.innerText = "prompt translation inserting";
+    if(confirm("load remote translation?")){
+        let iframe = document.createElement('iframe');
+        iframe.src = 'remote-tl.html';
+        iframe.style = 'display: none';
+        // iframe.id = 'remote-tl';
+        // iframe.width = '0';
+        // iframe.height = '0';
+        document.body.appendChild(iframe);
+        iframe.onload = ()=>{
+			try {
+				let sceneDataOnline = JSON.parse(JSON.stringify(iframe.contentWindow.sceneData));
+				iframe.remove();
+					for(const i in sceneDataOnline){
+						if(Object.prototype.hasOwnProperty.call(sceneData, i) && sceneDataOnline[i].SCRIPTS.PART1.NAME == sceneData[i].SCRIPTS.PART1.NAME) {
+							online_data = {
+								"LANGUAGE": "T",
+								"TRANSLATOR": "Internet",
+								"SCRIPT": sceneDataOnline[i].SCRIPTS.PART1.SCRIPT
+							}
+							sceneData[i].SCRIPTS.PART1.TRANSLATIONS = [];
+							sceneData[i].SCRIPTS.PART1.TRANSLATIONS.push(online_data)
+						}
+					}
+				console.log("remote-tl loaded");
+				alert("remote translation loaded");
+			} catch (error) {
+				console.log("remote-tl failed:\n"+error);
+				alert("failed to load remote translation:\n"+error)
+			}
+        };
+    }
+    if(Object.prototype.hasOwnProperty.call(window, 'sceneDataTl')){
+        for(const first in sceneData){
+            if(Object.prototype.hasOwnProperty.call(sceneData[first].SCRIPTS.PART1, 'TRANSLATIONS'))
+                for(const i in sceneDataTl){
+                    if (Object.prototype.hasOwnProperty.call(sceneData, i) && Object.prototype.hasOwnProperty.call(sceneData[i].SCRIPTS.PART1, 'TRANSLATIONS') && sceneDataTl[i].SCRIPTS.PART1.NAME == sceneData[i].SCRIPTS.PART1.NAME) {
+                        sceneData[i].SCRIPTS.PART1.TRANSLATIONS.push(sceneDataTl[i].SCRIPTS.PART1.TRANSLATIONS[0]);
+                    }
+                }
+            else 
+                for(const i in sceneDataTl){
+                    if (Object.prototype.hasOwnProperty.call(sceneData, i) && sceneDataTl[i].SCRIPTS.PART1.NAME == sceneData[i].SCRIPTS.PART1.NAME) {
+                        sceneData[i].SCRIPTS.PART1.TRANSLATIONS = sceneDataTl[i].SCRIPTS.PART1.TRANSLATIONS;
+                    }
+                }
+            break;
+        }
+    }
 }
